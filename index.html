@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quiz</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
-  <body class="container is-max-desktop has-background-white-bis px-4 pb-6 is-size-4">
+  <body class="container is-max-desktop has-background-white-bis px-4 pb-6 is-size-4 is-size-6-mobile">
   <section class="section">
 	<div class="block">
 		<h1 class="title has-text-centered">Vrai ou faux ?</h1>
@@ -16,7 +18,7 @@
 		  <div class="content">
 			Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
 		  </div>
-		  <div class="control is-size-5">
+		  <div class="control is-size-5 is-size-6-mobile">
 			<label class="radio">
 			  <input type="radio" name="answer">
 			  Vrai
@@ -34,7 +36,7 @@
 			Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
 		  </div>
 		  <div class="columns is-mobile">
-			<div class="control column is-9 is-size-5">
+			<div class="control column is-9 is-size-5 is-size-6-mobile">
 				<label class="radio">
 				  <input type="radio" name="answer" disabled>
 				  Vrai
@@ -67,25 +69,25 @@
 		  </div>
 		  <div class="columns is-mobile">
 			<div class="control column is-9">
-				<div class="control is-size-5">
+				<div class="control is-size-5 is-size-6-mobile">
 					<label class="checkbox">
 						<input type="checkbox">
 						A : première réponse possible.
 					</label>
 				</div>
-				<div class="control is-size-5">
+				<div class="control is-size-5 is-size-6-mobile">
 					<label class="checkbox">
 						<input type="checkbox">
 						B : première réponse possible
 					</label>
 				</div>
-				<div class="control is-size-5">
+				<div class="control is-size-5 is-size-6-mobile">
 					<label class="checkbox">
 						<input type="checkbox">
 						C : première réponse possible
 					</label>
 				</div>
-				<div class="control is-size-5">
+				<div class="control is-size-5 is-size-6-mobile">
 					<label class="checkbox">
 						<input type="checkbox">
 						D : première réponse possible
@@ -103,10 +105,14 @@
 	</div>
 	<div class="card block">
 		<div class="card-content">
-		  <div class="content">RECTO
-		  </div>
-		  <div class="content is-hidden">VERSO
-		  </div>
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+		  	</div>
+		  	<div class="content is-hidden">VERSO
+		  	</div>
+		  	<div class="has-text-centered">
+			  <button class="button"><span class="material-icons">swap_vert</span>Voir le verso</button>
+			</div>
 		</div>
 	</div>
   </section>
