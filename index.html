@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+	  <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/draggable.bundle.js"></script>
   </head>
   <body class="container is-max-desktop has-background-white-bis px-4 pb-6 is-size-4 is-size-6-mobile">
 
@@ -152,15 +153,14 @@
 			</div>
 		</div>
 	</div>
-	<nav class="panel">
-		<p class="panel-heading">
-		  Étiquettes à positionner
-		</p>
-		<ul class="etiquettes">
-			<li>Étiquette 1</li>
-			<li>Étiquette 2</li>
-		</ul>
-	</nav>
+	<article class="message is-warning">
+		<div class="message-body is-size-5 is-size-6-mobile">
+			<ul>
+				<li><span draggable="true">Étiquette 1</span></li>
+				<li><span draggable="true">Étiquette 2</span></li>
+			</ul>
+		</div>
+	  </article>
   </section>
 
 
