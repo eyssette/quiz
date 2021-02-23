@@ -1,3 +1,9 @@
+/* Définition des types de question */
+
+
+
+
+/* Comportement de la boîte modale */
 
 var quiz=localStorage.getItem('quiz');
 if (quiz) {

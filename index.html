@@ -1,211 +1,241 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-	  <link href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css" rel="stylesheet">
-	  <link rel="stylesheet" href="./style.css">
-	  <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/draggable.bundle.js"></script>
-  </head>
-  <body class="container is-max-desktop has-background-white-bis px-4 pb-6 is-size-4 is-size-6-mobile">
 
-	
-	<span id="menu" class="material-icons is-size-4 is-size-6-mobile pt-2 has-tooltip-bottom has-tooltip-hidden-mobile modal-button" data-target="modal" aria-haspopup="true" data-tooltip="Changer le contenu de ce quizz">
-		menu
-		</span>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/draggable.bundle.js"></script>
+</head>
+
+<body class="container is-max-desktop has-background-white-bis px-4 pb-6 is-size-4 is-size-6-mobile">
+
+	<nav class="level">
+		<div class="level-left">
+				<span id="menu"
+					class="material-icons is-size-4 is-size-6-mobile pt-2 has-tooltip-bottom has-tooltip-hidden-mobile modal-button level-item"
+					data-target="modal" aria-haspopup="true" data-tooltip="Changer le contenu de ce quizz">
+					menu
+				</span>
+		</div>
+	</nav>
 
 	<h1 class="title has-text-centered pt-2 is-size-1 has-text-link-dark">Quiz</h1>
+	<h2 class="subtitle has-text-centered has-text-link-dark mt-4">Répondez à toutes les questions et calculez votre score.</h2>
 
 
-  <section class="section">
-	<div class="block">
-		<h2 class="title has-text-centered">Vrai ou faux ?</h2>
-	</div>
-	<div class="card block">
-		<div class="card-content">
-		  <div class="content">
-			Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-		  </div>
-		  <div class="control is-size-5 is-size-6-mobile">
-			<label class="radio">
-			  <input type="radio" name="answer">
-			  Vrai
-			</label>
-			<label class="radio">
-			  <input type="radio" name="answer">
-			  Faux
-			</label>
-		  </div>
+	<section class="section">
+		<div class="block">
+			<h2 class="title has-text-centered">Vrai ou faux ?</h2>
 		</div>
-	</div>
-	<div class="card block">
-		<div class="card-content">
-		  <div class="content">
-			Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-		  </div>
-		  <div class="columns">
-			<div class="control column is-9 is-size-5 is-size-6-mobile">
-				<label class="radio">
-				  <input type="radio" name="answer" disabled>
-				  Vrai
-				</label>
-				<label class="radio">
-				  <input type="radio" name="answer" disabled checked>
-				  Faux
-				</label>
-			  </div>
-			<div class="column is-narrow">
-				<article class="message is-danger is-small">
-					<div class="message-body">
-					  Erreur : à revoir !
+		<div class="card block">
+			<div class="card-content">
+				<div class="content">
+					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+				</div>
+				<div class="control is-size-5 is-size-6-mobile">
+					<label class="radio">
+						<input type="radio" name="answer">
+						Vrai
+					</label>
+					<label class="radio">
+						<input type="radio" name="answer">
+						Faux
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="card block">
+			<div class="card-content">
+				<div class="content">
+					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+				</div>
+				<div class="columns">
+					<div class="control column is-9 is-size-5 is-size-6-mobile">
+						<label class="radio">
+							<input type="radio" name="answer" disabled>
+							Vrai
+						</label>
+						<label class="radio">
+							<input type="radio" name="answer" disabled checked>
+							Faux
+						</label>
 					</div>
-				  </article>
-			</div>
-		  </div>
-		</div>
-	</div>
-  </section>
-
-  <section class="section">
-	<div class="block">
-		<h2 class="title has-text-centered">QCM</h1>
-	</div>
-	<div class="card block">
-		<div class="card-content">
-		  <div class="content">
-			Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-		  </div>
-		  <div class="columns">
-			<div class="control column is-9">
-				<div class="control is-size-5 is-size-6-mobile">
-					<label class="checkbox">
-						<input type="checkbox">
-						A : première réponse possible.
-					</label>
-				</div>
-				<div class="control is-size-5 is-size-6-mobile">
-					<label class="checkbox">
-						<input type="checkbox">
-						B : deuxième réponse possible
-					</label>
-				</div>
-				<div class="control is-size-5 is-size-6-mobile">
-					<label class="checkbox">
-						<input type="checkbox">
-						C : troisième réponse possible
-					</label>
-				</div>
-				<div class="control is-size-5 is-size-6-mobile">
-					<label class="checkbox">
-						<input type="checkbox">
-						D : quatrième réponse possible
-					</label>
-				</div>
-			</div>
-		  </div>
-		</div>
-	</div>
-  </section>
-
-  <section class="section">
-	<div class="block">
-		<h1 class="title has-text-centered">Flashcard</h1>
-	</div>
-	<div class="card block">
-		<div class="card-content">
-			<div class="content">
-				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-		  	</div>
-		  	<div class="content is-hidden">VERSO
-		  	</div>
-		  	<div class="has-text-centered">
-			  <button class="button"><span class="material-icons">swap_vert</span>Voir le verso</button>
-			</div>
-		</div>
-	</div>
-  </section>
-
-  <section class="section">
-	<div class="block">
-		<h1 class="title has-text-centered">Texte à trous</h1>
-	</div>
-	<div class="card block">
-		<div class="card-content">
-			<div class="content">
-				Lorem ipsum leo risus, porta ac <span class="select is-size-6 is-size-7-mobile"><select><option>………</option><option>consectetur</option><option>consecteturunt</option><<option>consecteturas</option></select></span> ac, vestibulum at eros. <span class="select is-size-6 is-size-7-mobile"><select><option>………</option><option>Donec id elit non mi</option><option>Donec id elit non fa</option><<option>Donec id elit non re</option></select></span> porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-		  	</div>
-		</div>
-	</div>
-  </section>
-
-  <section class="section">
-	<div class="block">
-		<h2 class="title has-text-centered">Étiquettes</h2>
-	</div>
-	<div class="columns has-text-centered">
-		<div class="column is-half">
-			<div class="card block">
-				<div class="card-content zone1 py-6">
-					Zone 1
+					<div class="column is-narrow">
+						<article class="message is-danger is-small">
+							<div class="message-body">
+								Erreur : à revoir !
+							</div>
+						</article>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="column">
-			<div class="card block">
-				<div class="card-content zone2 py-6">
-					Zone 2
+	</section>
+
+	<section class="section">
+		<div class="block">
+			<h2 class="title has-text-centered">QCM</h1>
+		</div>
+		<div class="card block">
+			<div class="card-content">
+				<div class="content">
+					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+				</div>
+				<div class="columns">
+					<div class="control column is-9">
+						<div class="control is-size-5 is-size-6-mobile">
+							<label class="checkbox">
+								<input type="checkbox">
+								A : première réponse possible.
+							</label>
+						</div>
+						<div class="control is-size-5 is-size-6-mobile">
+							<label class="checkbox">
+								<input type="checkbox">
+								B : deuxième réponse possible
+							</label>
+						</div>
+						<div class="control is-size-5 is-size-6-mobile">
+							<label class="checkbox">
+								<input type="checkbox">
+								C : troisième réponse possible
+							</label>
+						</div>
+						<div class="control is-size-5 is-size-6-mobile">
+							<label class="checkbox">
+								<input type="checkbox">
+								D : quatrième réponse possible
+							</label>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<article class="message is-warning">
-		<div class="message-body is-size-5 is-size-6-mobile">
-			<ul>
-				<li><span draggable="true">Étiquette 1</span></li>
-				<li><span draggable="true">Étiquette 2</span></li>
-			</ul>
+	</section>
+
+	<section class="section">
+		<div class="block">
+			<h1 class="title has-text-centered">Flashcard</h1>
 		</div>
-	  </article>
-  </section>
+		<div class="card block">
+			<div class="card-content">
+				<div class="content">
+					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+				</div>
+				<div class="content is-hidden">VERSO
+				</div>
+				<div class="has-text-centered">
+					<button class="button"><span class="material-icons">swap_vert</span>Voir le verso</button>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <section class="section">
- <div class="has-text-centered my-6"> 
-  <button class="button is-dark has-background-grey-dark  is-rounded is-size-4 is-size-7-mobile"><span class="material-icons">check </span>  Valider les réponses et voir les résultats</button>
-</div>
+	<section class="section">
+		<div class="block">
+			<h1 class="title has-text-centered">Texte à trous</h1>
+		</div>
+		<div class="card block">
+			<div class="card-content">
+				<div class="content">
+					Lorem ipsum leo risus, porta ac <span class="select is-size-6 is-size-7-mobile"><select>
+							<option>………</option>
+							<option>consectetur</option>
+							<option>consecteturunt</option>
+							<<option>consecteturas</option>
+						</select></span> ac, vestibulum at eros. <span
+						class="select is-size-6 is-size-7-mobile"><select>
+							<option>………</option>
+							<option>Donec id elit non mi</option>
+							<option>Donec id elit non fa</option>
+							<<option>Donec id elit non re</option>
+						</select></span> porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <article class="panel is-danger mt-6 is-size-4 is-size-6-mobile has-text-centered ">
-	<p class="panel-heading">
-		Résultats du quizz
-	</p>
-	<div class="panel-block columns py-6">
-		<div class="column is-two-thirds">3 réponses justes sur 10   (30%)</div>
-		<div class="column"><progress class="progress is-warning" value="30" max="100">30%</progress></div>
+	<section class="section">
+		<div class="block">
+			<h2 class="title has-text-centered">Étiquettes</h2>
+		</div>
+		<div class="columns has-text-centered">
+			<div class="column is-half">
+				<div class="card block">
+					<div class="card-content zone1 py-6">
+						Zone 1
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card block">
+					<div class="card-content zone2 py-6">
+						Zone 2
+					</div>
+				</div>
+			</div>
+		</div>
+		<article class="message is-warning">
+			<div class="message-body is-size-5 is-size-6-mobile">
+				<ul>
+					<li><span draggable="true">Étiquette 1</span></li>
+					<li><span draggable="true">Étiquette 2</span></li>
+				</ul>
+			</div>
+		</article>
+	</section>
+
+	<section class="section">
+		<div class="has-text-centered my-6">
+			<button class="button is-dark has-background-grey-dark  is-rounded is-size-4 is-size-7-mobile"><span
+					class="material-icons">check </span>  Valider les réponses et voir les résultats</button>
+		</div>
+
+		<article class="panel is-danger mt-6 is-size-4 is-size-6-mobile has-text-centered ">
+			<p class="panel-heading">
+				Résultats du quizz
+			</p>
+			<div class="panel-block columns py-6">
+				<div class="column is-two-thirds">3 réponses justes sur 10   (30%)</div>
+				<div class="column"><progress class="progress is-warning" value="30" max="100">30%</progress></div>
+			</div>
+		</article>
+	</section>
+
+
+	<div class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<header class="modal-card-head">
+				<p class="modal-card-title">Changer le contenu de ce quiz</p>
+				<button class="delete" aria-label="close"></button>
+			</header>
+			<section class="modal-card-body">
+				<!-- Content ... -->
+				<textarea class="textarea" placeholder="Contenu du quiz" rows="20" cols="50" id="contenuDuQuiz"
+					name="contenuDuQuiz"></textarea>
+			</section>
+			<footer class="modal-card-foot">
+				<button class="button is-success">Save</button>
+				<button class="button">Cancel</button>
+			</footer>
+		</div>
 	</div>
-</article>
-</section>
+	<script src="./js/script.js"></script>
+</body>
 
-
-  <div class="modal">
-	<div class="modal-background"></div>
-	<div class="modal-card">
-	  <header class="modal-card-head">
-		<p class="modal-card-title">Changer le contenu de ce quiz</p>
-		<button class="delete" aria-label="close"></button>
-	  </header>
-	  <section class="modal-card-body">
-		<!-- Content ... -->
-		<textarea class="textarea" placeholder="Contenu du quiz" rows="20" cols="50" id="contenuDuQuiz" name="contenuDuQuiz"></textarea>
-	  </section>
-	  <footer class="modal-card-foot">
-		<button class="button is-success">Save</button>
-		<button class="button">Cancel</button>
-	  </footer>
-	</div>
-  </div>
-  <script src="./script.js"></script>
-  </body>
 </html>
