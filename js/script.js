@@ -53,6 +53,9 @@ new Sortable(el0, {
     group: 'quiz-q22', // set both lists to same group
 });
 
+var ordre1 = document.getElementById('quiz-q23');
+new Sortable(ordre1);
+
 /* Comportement de la boîte modale */
 
 var quiz=localStorage.getItem('quiz');
