@@ -39,23 +39,26 @@ label.checkbox {
 	border: 2px solid hsl(141, 53%, 31%);
 }
 
-
 .quiz-type-qcu .radio{
 	display:block;
 	margin:0;
 }
 
+.quiz-type-input .control span {
+	margin-left:15px;
+}
+
+table {
+	hyphens: auto;
+}
+table .radio{
+	display:block;
+	text-align:center;
+}
 thead {
 	text-align:center;
 	font-size:90%;
 }
 td:nth-of-type(1) {
 	width: 50%!important;
-}
-table .radio{
-	display:block;
-	text-align:center;
-}
-table {
-	hyphens: auto;
 }
