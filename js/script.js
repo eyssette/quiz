@@ -38,6 +38,21 @@ return html;
 q1= new Question(1,1,"vf",htmlVF(1,"Test question"));
 
 
+/**/
+
+var el1 = document.getElementById('quiz-q22-z1');
+var el2 = document.getElementById('quiz-q22-z2');
+var el0 = document.getElementById('quiz-q22-z0');
+new Sortable(el1, {
+    group: 'quiz-q22', // set both lists to same group
+});
+new Sortable(el2, {
+    group: 'quiz-q22', // set both lists to same group
+});
+new Sortable(el0, {
+    group: 'quiz-q22', // set both lists to same group
+});
+
 /* Comportement de la boîte modale */
 
 var quiz=localStorage.getItem('quiz');

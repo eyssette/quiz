@@ -10,7 +10,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css"
 		rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
-	<script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/draggable.bundle.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.13.0/Sortable.min.js"></script>
 </head>
 
 <body class="container is-max-desktop has-background-white-ter px-4 pb-6 is-size-4 is-size-6-mobile">
@@ -353,30 +353,41 @@
 		<div class="block">
 			<h2 class="title has-text-centered">Étiquettes</h2>
 		</div>
-		<div class="columns has-text-centered">
-			<div class="column is-half">
-				<div class="card block">
-					<div class="card-content zone1 py-6">
-						Zone 1
-					</div>
+		<div class="box block" id="quiz-q22">
+			<p class="has-text-centered block">Classez les étiquettes ci-dessous dans la bonne catégorie :</p>
+			<div class="columns has-text-centered mt-5">
+				<div class="column is-half">
+					<article class="message">
+						<div class="message-header has-background-grey-lighter  has-text-dark">
+						  Catégorie 1
+						</div>
+						<div class="message-body mt-2">
+							<ul id="quiz-q22-z1">
+							</ul>
+						</div>
+					  </article>
+				</div>
+				<div class="column">
+					<article class="message">
+						<div class="message-header has-background-grey-lighter  has-text-dark">
+						  Catégorie 2
+						</div>
+						<div class="message-body mt-2">
+						  	<ul id="quiz-q22-z2">
+							</ul>
+						</div>
+					</article>
 				</div>
 			</div>
-			<div class="column">
-				<div class="card block">
-					<div class="card-content zone2 py-6">
-						Zone 2
-					</div>
+			<article class="message is-info mt-5">
+				<div class="message-body">
+					<ul id="quiz-q22-z0">
+						<li id="quiz-q22-r1">Durable</li>
+						<li id="quiz-q22-r2">Globale</li>
+					</ul>
 				</div>
-			</div>
+			</article>
 		</div>
-		<article class="message is-warning">
-			<div class="message-body is-size-5 is-size-6-mobile">
-				<ul>
-					<li><span draggable="true">Étiquette 1</span></li>
-					<li><span draggable="true">Étiquette 2</span></li>
-				</ul>
-			</div>
-		</article>
 	</section>
 
 	<section class="section" id="validation">
