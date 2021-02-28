@@ -1,3 +1,35 @@
 #menu {
 	border:none;
 }
+
+input {
+	margin-right:7px;
+}
+
+.has-text-strikethrough{
+	text-decoration: line-through hsl(348, 86%, 43%);
+}
+
+.quiz-error {
+	border-left:4px solid hsl(348, 86%, 43%);
+}
+
+.quiz-success {
+	border-left:4px solid hsl(141, 53%, 31%);
+}
+
+label.checkbox {
+	display:block;
+}
+
+.omission {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsl(348, 86%, 43%);
+    text-align: center;
+	padding:1px;
+	margin-left:-2px;
+	margin-right:5px;
+	padding-left:7px;
+}

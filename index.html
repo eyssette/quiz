@@ -33,51 +33,37 @@
 		<div class="block">
 			<h2 class="title has-text-centered">Vrai ou faux ?</h2>
 		</div>
-		<div class="card block">
-			<div class="card-content">
-				<div class="content">
-					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-				</div>
-				<div class="control is-size-5 is-size-6-mobile">
-					<label class="radio">
-						<input type="radio" name="answer">
-						Vrai
-					</label>
-					<label class="radio">
-						<input type="radio" name="answer">
-						Faux
-					</label>
-				</div>
+		<div class="box block" id="quiz-q1">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio" for="quiz-q1-r1"><input type="radio" name="quiz-q1" id="quiz-q1-r1">Vrai</label>
+				<label class="radio" for="quiz-q1-r2"><input type="radio" name="quiz-q1" id="quiz-q1-r2">Faux</label>
 			</div>
 		</div>
-		<div class="card block">
-			<div class="card-content">
-				<div class="content">
-					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-				</div>
-				<div class="columns">
-					<div class="control column is-9 is-size-5 is-size-6-mobile">
-						<label class="radio">
-							<input type="radio" name="answer" disabled>
-							Vrai
-						</label>
-						<label class="radio">
-							<input type="radio" name="answer" disabled checked>
-							Faux
-						</label>
-					</div>
-					<div class="column is-narrow">
-						<article class="message is-danger is-small">
-							<div class="message-body">
-								Erreur : à revoir !
-							</div>
-						</article>
-					</div>
-				</div>
+		<div class="box block quiz-success" id="quiz-q2">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio has-text-success-dark has-text-weight-semibold" for="quiz-q2-r1"><input type="radio" name="quiz-q2" id="quiz-q2-r1" disabled checked>Vrai</label>
+				<label class="radio" for="quiz-q2-r2"><input type="radio" name="quiz-q2" id="quiz-q2-r2" disabled>Faux</label>
+			</div>
+		</div>
+		<div class="box block quiz-error" id="quiz-q3">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio" for="quiz-q3-r1"><input type="radio" name="quiz-q3" id="quiz-q3-r1" disabled>Vrai</label>
+				<label class="radio has-text-strikethrough" for="quiz-q3-r2"><input type="radio" name="quiz-q3" id="quiz-q3-r2" disabled checked>Faux</label>
 			</div>
 		</div>
 	</section>
@@ -86,41 +72,43 @@
 		<div class="block">
 			<h2 class="title has-text-centered">QCM</h1>
 		</div>
-		<div class="card block">
-			<div class="card-content">
-				<div class="content">
-					Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-					gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-					ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-				</div>
-				<div class="columns">
-					<div class="control column is-9">
-						<div class="control is-size-5 is-size-6-mobile">
-							<label class="checkbox">
-								<input type="checkbox">
-								A : première réponse possible.
-							</label>
-						</div>
-						<div class="control is-size-5 is-size-6-mobile">
-							<label class="checkbox">
-								<input type="checkbox">
-								B : deuxième réponse possible
-							</label>
-						</div>
-						<div class="control is-size-5 is-size-6-mobile">
-							<label class="checkbox">
-								<input type="checkbox">
-								C : troisième réponse possible
-							</label>
-						</div>
-						<div class="control is-size-5 is-size-6-mobile">
-							<label class="checkbox">
-								<input type="checkbox">
-								D : quatrième réponse possible
-							</label>
-						</div>
-					</div>
-				</div>
+		<div class="box block" id="quiz-q4">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="checkbox" for="quiz-q4-r1"><input type="checkbox" id="quiz-q4-r1">A : première réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r2"><input type="checkbox" id="quiz-q4-r2">B : deuxième réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r3"><input type="checkbox" id="quiz-q4-r3">C : troisième réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r4"><input type="checkbox" id="quiz-q4-r4">D : quatrième réponse possible</label>
+			</div>
+		</div>
+		<div class="box block quiz-success" id="quiz-q5">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="checkbox" for="quiz-q5-r1"><input type="checkbox" id="quiz-q5-r1" disabled>A : première réponse possible</label>
+				<label class="checkbox has-text-success-dark has-text-weight-semibold" for="quiz-q5-r2"><input type="checkbox" id="quiz-q5-r2" disabled checked>B : deuxième réponse possible</label>
+				<label class="checkbox" for="quiz-q5-r3"><input type="checkbox" id="quiz-q5-r3" disabled>C : troisième réponse possible</label>
+				<label class="checkbox has-text-success-dark has-text-weight-semibold" for="quiz-q5-r4"><input type="checkbox" id="quiz-q5-r4" disabled checked>D : quatrième réponse possible</label>
+			</div>
+		</div>
+		<div class="box block quiz-error" id="quiz-q6">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="checkbox has-text-success-dark has-text-weight-semibold" for="quiz-q6-r1"><input type="checkbox" id="quiz-q6-r1" disabled checked>A : première réponse possible</label>
+				<label class="checkbox has-text-strikethrough has-text-weight-semibold" for="quiz-q6-r2"><input type="checkbox" id="quiz-q6-r2" disabled checked>B : deuxième réponse possible</label>
+				<label class="checkbox" for="quiz-q6-r3"><span class="omission"><input type="checkbox" id="quiz-q6-r3" disabled></span>C : troisième réponse possible</label>
+				<label class="checkbox has-text-strikethrough has-text-weight-semibold" for="quiz-q6-r4"><input type="checkbox" id="quiz-q6-r4" disabled checked>D : quatrième réponse possible</label>
 			</div>
 		</div>
 	</section>
