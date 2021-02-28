@@ -22,17 +22,23 @@ label.checkbox {
 	display:block;
 }
 
-.omission {
+.omission, .circle-true, .circle-false {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    border: 2px solid hsl(348, 86%, 43%);
     text-align: center;
 	padding:1px;
 	margin-left:-2px;
 	margin-right:5px;
 	padding-left:7px;
 }
+.omission, .circle-false {
+	border: 2px solid hsl(348, 86%, 43%);
+}
+.circle-true {
+	border: 2px solid hsl(141, 53%, 31%);
+}
+
 
 .quiz-type-qcu .radio{
 	display:block;
@@ -49,4 +55,7 @@ td:nth-of-type(1) {
 table .radio{
 	display:block;
 	text-align:center;
+}
+table {
+	hyphens: auto;
 }
