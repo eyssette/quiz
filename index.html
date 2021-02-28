@@ -42,6 +42,7 @@
 			<div class="control is-size-5 is-size-6-mobile">
 				<label class="radio" for="quiz-q1-r1"><input type="radio" name="quiz-q1" id="quiz-q1-r1">Vrai</label>
 				<label class="radio" for="quiz-q1-r2"><input type="radio" name="quiz-q1" id="quiz-q1-r2">Faux</label>
+				<label class="radio" for="quiz-q1-r3"><input type="radio" name="quiz-q1" id="quiz-q1-r3" checked>Je ne sais pas</label>
 			</div>
 		</div>
 		<div class="box block quiz-success" id="quiz-q2">
@@ -53,6 +54,7 @@
 			<div class="control is-size-5 is-size-6-mobile">
 				<label class="radio has-text-success-dark has-text-weight-semibold" for="quiz-q2-r1"><input type="radio" name="quiz-q2" id="quiz-q2-r1" disabled checked>Vrai</label>
 				<label class="radio" for="quiz-q2-r2"><input type="radio" name="quiz-q2" id="quiz-q2-r2" disabled>Faux</label>
+				<label class="radio" for="quiz-q2-r3"><input type="radio" name="quiz-q1" id="quiz-q2-r3" disabled>Je ne sais pas</label>
 			</div>
 		</div>
 		<div class="box block quiz-error" id="quiz-q3">
@@ -64,13 +66,14 @@
 			<div class="control is-size-5 is-size-6-mobile">
 				<label class="radio" for="quiz-q3-r1"><input type="radio" name="quiz-q3" id="quiz-q3-r1" disabled>Vrai</label>
 				<label class="radio has-text-strikethrough has-text-weight-semibold" for="quiz-q3-r2"><input type="radio" name="quiz-q3" id="quiz-q3-r2" disabled checked>Faux</label>
+				<label class="radio" for="quiz-q3-r3"><input type="radio" name="quiz-q1" id="quiz-q3-r3" disabled>Je ne sais pas</label>
 			</div>
 		</div>
 	</section>
 
 	<section class="section">
 		<div class="block">
-			<h2 class="title has-text-centered">QCM</h1>
+			<h2 class="title has-text-centered">QCM</h2>
 		</div>
 		<div class="box block" id="quiz-q4">
 			<div class="content">
@@ -115,7 +118,7 @@
 
 	<section class="section">
 		<div class="block">
-			<h1 class="title has-text-centered">Flashcard</h1>
+			<h2 class="title has-text-centered">Flashcard</h2>
 		</div>
 		<div class="box block" id="quiz-q7">
 				<div class="content">
@@ -132,6 +135,7 @@
 					<label class="radio" for="quiz-q7-r1"><input type="radio" name="quiz-q7" id="quiz-q7-r1">Réponse juste</label>
 					<label class="radio" for="quiz-q7-r2"><input type="radio" name="quiz-q7" id="quiz-q7-r2">Réponse partiellement juste</label>
 					<label class="radio" for="quiz-q7-r3"><input type="radio" name="quiz-q7" id="quiz-q7-r3">Réponse fausse</label>
+					<label class="radio" for="quiz-q7-r4"><input type="radio" name="quiz-q1" id="quiz-q7-r4" checked>Je ne sais pas</label>
 				</div>
 		</div>
 		<div class="box block quiz-success" id="quiz-q8">
@@ -152,6 +156,7 @@
 					partiellement juste</label>
 				<label class="radio" for="quiz-q8-r3"><input type="radio" name="quiz-q8" id="quiz-q8-r3" disabled>Réponse
 					fausse</label>
+				<label class="radio" for="quiz-q8-r4"><input type="radio" name="quiz-q1" id="quiz-q8-r4" disabled>Je ne sais pas</label>
 			</div>
 		</div>
 		<div class="box block quiz-error" id="quiz-q9">
@@ -172,13 +177,14 @@
 					partiellement juste</label>
 				<label class="radio" for="quiz-q9-r3"><input type="radio" name="quiz-q9" id="quiz-q9-r3" disabled>Réponse
 					fausse</label>
+					<label class="radio" for="quiz-q9-r4"><input type="radio" name="quiz-q1" id="quiz-q9-r4" disabled>Je ne sais pas</label>
 			</div>
 		</div>
 	</section>
 
 	<section class="section">
 		<div class="block">
-			<h1 class="title has-text-centered">Texte à trous</h1>
+			<h2 class="title has-text-centered">Texte à trous</h2>
 		</div>
 		<div class="box block" id="quiz-q10">
 			<div class="content">
@@ -242,6 +248,73 @@
 				</ul>
 			</div>
 		</article>
+	</section>
+
+	<section class="section">
+		<div class="block">
+			<h2 class="title has-text-centered">QCU</h2>
+		</div>
+		<div class="box block quiz-type-qcu" id="quiz-q13">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio" for="quiz-q13-r1"><input type="radio" id="quiz-q13-r1" name="quiz-q13">A : première réponse possible</label>
+				<label class="radio" for="quiz-q13-r2"><input type="radio" id="quiz-q13-r2" name="quiz-q13">B : deuxième réponse possible</label>
+				<label class="radio" for="quiz-q13-r3"><input type="radio" id="quiz-q13-r3" name="quiz-q13">C : troisième réponse possible</label>
+				<label class="radio" for="quiz-q13-r4"><input type="radio" id="quiz-q13-r4" name="quiz-q13">D : quatrième réponse possible</label>
+				<label class="radio" for="quiz-q13-r5"><input type="radio" id="quiz-q13-r5" name="quiz-q13" checked>Je ne sais pas</label>
+			</div>
+		</div>
+		<div class="box block quiz-success quiz-type-qcu" id="quiz-q14">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio" for="quiz-q14-r1"><input type="radio" id="quiz-q14-r1" name="quiz-q14" disabled>A : première réponse possible</label>
+				<label class="radio has-text-success-dark has-text-weight-semibold" for="quiz-q14-r2"><input type="radio" id="quiz-q14-r2" name="quiz-q14" disabled checked>B : deuxième réponse possible</label>
+				<label class="radio" for="quiz-q14-r3"><input type="radio" id="quiz-q14-r3" name="quiz-q14" disabled>C : troisième réponse possible</label>
+				<label class="radio" for="quiz-q14-r4"><input type="radio" id="quiz-q14-r4" name="quiz-q14" disabled>D : quatrième réponse possible</label>
+				<label class="radio" for="quiz-q14-r5"><input type="radio" id="quiz-q14-r5" name="quiz-q14" disabled>Je ne sais pas</label>
+			</div>
+		</div>
+		<div class="box block quiz-error quiz-type-qcu" id="quiz-q15">
+			<div class="content">
+				Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
+				gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+			</div>
+			<div class="control is-size-5 is-size-6-mobile">
+				<label class="radio" for="quiz-q15-r1"><input type="radio" id="quiz-q15-r1" name="quiz-q15" disabled>A : première réponse possible</label>
+				<label class="radio has-text-strikethrough has-text-weight-semibold" for="quiz-q15-r2"><input type="radio" id="quiz-q15-r2" name="quiz-q15" disabled checked>B : deuxième réponse possible</label>
+				<label class="radio" for="quiz-q15-r3"><input type="radio" id="quiz-q15-r3" name="quiz-q15" disabled>C : troisième réponse possible</label>
+				<label class="radio" for="quiz-q15-r4"><input type="radio" id="quiz-q15-r4" name="quiz-q15" disabled>D : quatrième réponse possible</label>
+				<label class="radio" for="quiz-q15-r5"><input type="radio" id="quiz-q15-r5" name="quiz-q15" disabled>Je ne sais pas</label>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="block">
+			<h2 class="title has-text-centered">Grille</h2>
+		</div>
+		<div class="box block" id="quiz-q16">
+			<div class="content">
+				<table class="table">
+					<thead><tr><th></th><th>Catégorie 1</th><th>Catégorie 2</th><th>Je ne sais pas</th></tr></thead>
+					<tbody>
+						<tr><td>Proposition 1 : Lorem ipsum leo risus, porta ac consectetur ac</td><td><label class="radio" for="quiz-q16-r1-a"><input type="radio" id="quiz-q16-r1-a" name="quiz-q16-r1"></label></td><td><label class="radio" for="quiz-q16-r1-b"><input type="radio" id="quiz-q16-r1-b" name="quiz-q16-r1"></label></td><td><label class="radio" for="quiz-q16-r1-c"><input type="radio" id="quiz-q16-r1-c" name="quiz-q16-r1" checked></label></td></tr>
+						<tr><td>Proposition 2 : Lorem ipsum leo risus, porta ac consectetur ac</td><td><label class="radio" for="quiz-q16-r2-a"><input type="radio" id="quiz-q16-r2-a" name="quiz-q16-r2"></label></td><td><label class="radio" for="quiz-q16-r2-b"><input type="radio" id="quiz-q16-r2-b" name="quiz-q16-r2"></label></td><td><label class="radio" for="quiz-q16-r2-c"><input type="radio" id="quiz-q16-r2-c" name="quiz-q16-r2" checked></label></td></tr>
+						<tr><td>Proposition 1 : Lorem ipsum leo risus, porta ac consectetur ac</td><td><label class="radio" for="quiz-q16-r3-a"><input type="radio" id="quiz-q16-r3-a" name="quiz-q16-r3"></label></td><td><label class="radio" for="quiz-q16-r3-b"><input type="radio" id="quiz-q16-r3-b" name="quiz-q16-r3"></label></td><td><label class="radio" for="quiz-q16-r3-c"><input type="radio" id="quiz-q16-r3-c" name="quiz-q16-r3" checked></label></td></tr>
+						<tr></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</section>
 
 	<section class="section" id="validation">

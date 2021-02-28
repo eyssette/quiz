@@ -33,3 +33,20 @@ label.checkbox {
 	margin-right:5px;
 	padding-left:7px;
 }
+
+.quiz-type-qcu .radio{
+	display:block;
+	margin:0;
+}
+
+thead {
+	text-align:center;
+	font-size:90%;
+}
+td:nth-of-type(1) {
+	width: 50%!important;
+}
+table .radio{
+	display:block;
+	text-align:center;
+}
