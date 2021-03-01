@@ -79,6 +79,30 @@ new Sortable(association2, {
 	  },
 });
 
+var associationq250 = document.getElementById('quiz-q25-z0');
+var associationq251 = document.getElementById('quiz-q25-z1');
+var associationq252 = document.getElementById('quiz-q25-z2');
+new Sortable(associationq250, {
+    group: 'quiz-q25'
+});
+new Sortable(associationq251, {
+	group: {
+		name: 'quiz-q25',
+		put: function (to) {
+		  return to.el.children.length < 1;
+		}
+	  },
+});
+new Sortable(associationq252, {
+	group: {
+		name: 'quiz-q25',
+		put: function (to) {
+		  return to.el.children.length < 1;
+		}
+	  },
+});
+
+
 /* Comportement de la boîte modale */
 
 var quiz=localStorage.getItem('quiz');
