@@ -44,17 +44,40 @@ var el1 = document.getElementById('quiz-q22-z1');
 var el2 = document.getElementById('quiz-q22-z2');
 var el0 = document.getElementById('quiz-q22-z0');
 new Sortable(el1, {
-    group: 'quiz-q22', // set both lists to same group
+    group: 'quiz-q22'
 });
 new Sortable(el2, {
-    group: 'quiz-q22', // set both lists to same group
+    group: 'quiz-q22'
 });
 new Sortable(el0, {
-    group: 'quiz-q22', // set both lists to same group
+    group: 'quiz-q22'
 });
 
-var ordre1 = document.getElementById('quiz-q23');
+var ordre1 = document.getElementById('quiz-q23-z0');
 new Sortable(ordre1);
+
+var association0 = document.getElementById('quiz-q24-z0');
+var association1 = document.getElementById('quiz-q24-z1');
+var association2 = document.getElementById('quiz-q24-z2');
+new Sortable(association0, {
+    group: 'quiz-q24'
+});
+new Sortable(association1, {
+	group: {
+		name: 'quiz-q24',
+		put: function (to) {
+		  return to.el.children.length < 1;
+		}
+	  },
+});
+new Sortable(association2, {
+	group: {
+		name: 'quiz-q24',
+		put: function (to) {
+		  return to.el.children.length < 1;
+		}
+	  },
+});
 
 /* Comportement de la boîte modale */
 
