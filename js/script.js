@@ -205,6 +205,7 @@ function refresh(e){
 }
 
 function refaireQuiz(e){
+	refresh();
 	affichageResultats.style.visibility = 'hidden';
 	scroll(0,0);
 }
