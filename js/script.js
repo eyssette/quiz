@@ -134,7 +134,10 @@ validationForm.onclick = resultats;
 
 var affichageResultats=document.getElementById('resultats');
 var refaireLeQuiz=document.getElementById('refaireLeQuiz');
+var modifierSesReponses=document.getElementById('modifierSesReponses');
+
 refaireLeQuiz.onclick=refresh;
+modifierSesReponses.onclick=modifierReponses;
 
 
 function resultats(e) {
@@ -202,6 +205,9 @@ function refresh(e){
 	scroll(0,0);
 }
 
+function modifierReponses(e){
+	scroll(0,0);
+}
 
 
 /* Comportement de la boîte modale */
