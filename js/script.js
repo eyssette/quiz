@@ -38,7 +38,7 @@ return html;
 q1= new Question(1,1,"vf",htmlVF(1,"Test question"));
 
 
-/**/
+/* Gestion des éléments SORTABLE */
 
 var el1 = document.getElementById('quiz-q22-z1');
 var el2 = document.getElementById('quiz-q22-z2');
@@ -102,16 +102,51 @@ new Sortable(associationq252, {
 	  },
 });
 
+
+
+/* Tableau des bonnes réponses*/
+
+var bonnesReponses={"quiz-q1": "1","quiz-q4":"A,C"};
+
+/* Calcul de la similarité entre deux objets */
+const findSimilarity = (first, second) => {
+	const firstLength = Object.keys(first).length;
+	const secondLength = Object.keys(second).length;
+	const smaller = firstLength < secondLength ? first : second;
+	const greater = smaller === first ? second : first;
+	const count = Object.keys(smaller).reduce((acc, val) => {
+	   if(Object.keys(greater).includes(val)){
+		  if(greater[val] === smaller[val]){
+			 return ++acc;
+		  };
+	   };
+	   return acc;
+	}, 0);
+	return count;
+	/*return (count / Math.min(firstLength, secondLength)) * 100;*/
+ };
+
+
+
 /* Test résultats du formulaire */
 var validationForm=document.getElementById('validation');
 validationForm.onclick = resultats;
 
 function resultats(e) {
+	/* Traitement des questions issues du formulaire */
 	var myForm = document.getElementById('form-quiz');
 	formData = new FormData(myForm);
 
+	/* Traitement des QCM */
+	var questionQCM = document.getElementsByClassName('quiz-type-QCM');
+	for (let index = 0; index < questionQCM.length; index++) {
+		let idElement=questionQCM[index]['id'];
+		let reponsesQCM=formData.getAll(idElement);
+		formData.append(idElement, reponsesQCM);
+	}
+
 	/* Ajout au formulaire des réponses aux questions de type SORTABLE */
-	var sortables = document.getElementsByClassName(' quiz-type-sortable');
+	var sortables = document.getElementsByClassName('quiz-type-sortable');
 	for (let index = 0; index < sortables.length; index++) {		
 		idElement=sortables[index]['id'];
 		classElement=sortables[index]['classList'];
@@ -136,11 +171,15 @@ function resultats(e) {
 		}
 	}
 
-	for (var pair of formData.entries()) {
-		console.log(pair[0] + ': ' + pair[1]);
-	}
+	var tableauResultats=Object.fromEntries(formData.entries());
+	
+	console.log(tableauResultats);
+
+/* Comparaison résultats et bonnes réponses*/
+console.log(findSimilarity(tableauResultats,bonnesReponses));
 
 }
+
 
 
 
