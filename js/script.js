@@ -102,6 +102,19 @@ new Sortable(associationq252, {
 	  },
 });
 
+/* Test résultats du formulaire */
+var validationForm=document.getElementById('validation');
+validationForm.onclick = resultats;
+
+function resultats(e) {
+	var myForm = document.getElementById('form-quiz');
+	formData = new FormData(myForm);
+	for (var pair of formData.entries()) {
+		console.log(pair[0] + ': ' + pair[1]);
+	  }
+}
+
+
 
 /* Comportement de la boîte modale */
 
