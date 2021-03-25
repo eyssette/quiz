@@ -128,6 +128,18 @@ function resultats(e) {
 	 });;
 	 formData.append("q23", rq23);
 	
+	 var rq24z1 = Array.from(document.getElementById("quiz-q24-z1").getElementsByTagName("p")).map(element => {
+		contenu = element.innerHTML;
+	   return contenu;
+	 });;
+	 formData.append("q24-z1", rq24z1);
+
+	 var rq24z2 = Array.from(document.getElementById("quiz-q24-z2").getElementsByTagName("p")).map(element => {
+		contenu = element.innerHTML;
+	   return contenu;
+	 });;
+	 formData.append("q24-z2", rq24z2);
+
 	for (var pair of formData.entries()) {
 		console.log(pair[0] + ': ' + pair[1]);
 	}
