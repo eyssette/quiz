@@ -136,7 +136,7 @@ var affichageResultats=document.getElementById('resultats');
 var refaireLeQuiz=document.getElementById('refaireLeQuiz');
 var modifierSesReponses=document.getElementById('modifierSesReponses');
 
-refaireLeQuiz.onclick=refresh;
+refaireLeQuiz.onclick=refaireQuiz;
 modifierSesReponses.onclick=modifierReponses;
 
 
@@ -201,6 +201,10 @@ function resultats(e) {
 }
 
 function refresh(e){
+	/* fonction pour remettre le quiz à zéro */
+}
+
+function refaireQuiz(e){
 	affichageResultats.style.visibility = 'hidden';
 	scroll(0,0);
 }
