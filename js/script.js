@@ -112,45 +112,29 @@ function resultats(e) {
 
 	/* Ajout au formulaire des réponses aux questions de type SORTABLE */
 	var sortables = document.getElementsByClassName(' quiz-type-sortable');
-	console.log(sortables);
 	for (let index = 0; index < sortables.length; index++) {		
 		idElement=sortables[index]['id'];
 		classElement=sortables[index]['classList'];
 		/* Traitement des questions de type ORDRE */
 		if (classElement.contains('quiz-type-ordre')){
-			console.log("ordre : "+idElement);
 			var reponse = Array.from(document.getElementById(idElement+"-z0").getElementsByTagName("p")).map(element => {
 				contenu = element.innerHTML;
 			   return contenu;
 			 });;
 			 formData.append(idElement, reponse);
+		} else {
+			/* Traitement des questions de type ETIQUETTE + ASSOCIATION + ANNOTATIONS */
+			var zones = document.querySelectorAll('#'+idElement + ' .quiz-zone');
+			for (let index = 0; index < zones.length; index++) {
+				var zoneId = zones[index]['id'];
+				var reponse = Array.from(document.getElementById(zoneId).getElementsByTagName("p")).map(element => {
+					contenu = element.innerHTML;
+				   return contenu;
+				 });;
+				 formData.append(zoneId, reponse);
+			}
 		}
 	}
-
-	var rq22z1 = Array.from(document.getElementById("quiz-q22-z1").getElementsByTagName("p")).map(element => {
-		 contenu = element.innerHTML;
-		return contenu;
-	  });;
-	formData.append("q22-z1", rq22z1);
-
-	var rq22z2 = Array.from(document.getElementById("quiz-q22-z2").getElementsByTagName("p")).map(element => {
-		contenu = element.innerHTML;
-	   return contenu;
-	 });;
-	formData.append("q22-z2", rq22z2);
-
-	
-	 var rq24z1 = Array.from(document.getElementById("quiz-q24-z1").getElementsByTagName("p")).map(element => {
-		contenu = element.innerHTML;
-	   return contenu;
-	 });;
-	 formData.append("q24-z1", rq24z1);
-
-	 var rq24z2 = Array.from(document.getElementById("quiz-q24-z2").getElementsByTagName("p")).map(element => {
-		contenu = element.innerHTML;
-	   return contenu;
-	 });;
-	 formData.append("q24-z2", rq24z2);
 
 	for (var pair of formData.entries()) {
 		console.log(pair[0] + ': ' + pair[1]);
