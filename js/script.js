@@ -112,6 +112,23 @@ function resultats(e) {
 	for (var pair of formData.entries()) {
 		console.log(pair[0] + ': ' + pair[1]);
 	  }
+	var rq22z1 = Array.from(document.getElementById("quiz-q22-z1").getElementsByTagName("li")).map(element => {
+		 contenu = element.innerHTML;
+		return contenu;
+	  });;
+	var rq22z2 = Array.from(document.getElementById("quiz-q22-z2").getElementsByTagName("li")).map(element => {
+		contenu = element.innerHTML;
+	   return contenu;
+	 });;
+	console.log("q22-z1 :"+rq22z1);
+	console.log("q22-z2 :"+rq22z2);
+
+	var rq23 = Array.from(document.getElementById("quiz-q23-z0").getElementsByTagName("p")).map(element => {
+		contenu = element.innerHTML;
+	   return contenu;
+	 });;
+	console.log("q23 :"+rq23);
+
 }
 
 
