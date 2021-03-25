@@ -132,6 +132,11 @@ const findSimilarity = (first, second) => {
 var validationForm=document.getElementById('validation');
 validationForm.onclick = resultats;
 
+var affichageResultats=document.getElementById('resultats');
+var refaireLeQuiz=document.getElementById('refaireLeQuiz');
+refaireLeQuiz.onclick=refresh;
+
+
 function resultats(e) {
 	/* Traitement des questions issues du formulaire */
 	var myForm = document.getElementById('form-quiz');
@@ -187,8 +192,15 @@ function resultats(e) {
 	document.getElementById("pourcentageReponsesJustes").innerHTML=pourcentageReponsesJustes;
 	document.getElementById("barreReponsesJustes").value=pourcentageReponsesJustes;
 
+	
+	affichageResultats.style.visibility = 'visible';
+
 }
 
+function refresh(e){
+	affichageResultats.style.visibility = 'hidden';
+	scroll(0,0);
+}
 
 
 
