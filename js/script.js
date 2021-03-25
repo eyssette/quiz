@@ -110,23 +110,35 @@ function resultats(e) {
 	var myForm = document.getElementById('form-quiz');
 	formData = new FormData(myForm);
 
-	var rq22z1 = Array.from(document.getElementById("quiz-q22-z1").getElementsByTagName("li")).map(element => {
+	/* Ajout au formulaire des réponses aux questions de type SORTABLE */
+	var sortables = document.getElementsByClassName(' quiz-type-sortable');
+	console.log(sortables);
+	for (let index = 0; index < sortables.length; index++) {		
+		idElement=sortables[index]['id'];
+		classElement=sortables[index]['classList'];
+		/* Traitement des questions de type ORDRE */
+		if (classElement.contains('quiz-type-ordre')){
+			console.log("ordre : "+idElement);
+			var reponse = Array.from(document.getElementById(idElement+"-z0").getElementsByTagName("p")).map(element => {
+				contenu = element.innerHTML;
+			   return contenu;
+			 });;
+			 formData.append(idElement, reponse);
+		}
+	}
+
+	var rq22z1 = Array.from(document.getElementById("quiz-q22-z1").getElementsByTagName("p")).map(element => {
 		 contenu = element.innerHTML;
 		return contenu;
 	  });;
 	formData.append("q22-z1", rq22z1);
 
-	var rq22z2 = Array.from(document.getElementById("quiz-q22-z2").getElementsByTagName("li")).map(element => {
+	var rq22z2 = Array.from(document.getElementById("quiz-q22-z2").getElementsByTagName("p")).map(element => {
 		contenu = element.innerHTML;
 	   return contenu;
 	 });;
 	formData.append("q22-z2", rq22z2);
 
-	var rq23 = Array.from(document.getElementById("quiz-q23-z0").getElementsByTagName("p")).map(element => {
-		contenu = element.innerHTML;
-	   return contenu;
-	 });;
-	 formData.append("q23", rq23);
 	
 	 var rq24z1 = Array.from(document.getElementById("quiz-q24-z1").getElementsByTagName("p")).map(element => {
 		contenu = element.innerHTML;
