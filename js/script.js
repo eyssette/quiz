@@ -227,13 +227,19 @@ function modifierReponses(e) {
 	window.scrollTo(0, 0);
 }
 
+/* Gestion du codage du Quiz */
 
-/* Comportement de la boîte modale */
-
-let quiz = localStorage.getItem('quiz');
-if (quiz) {
+if (window.location.hash.slice(1)) {
+	let quizEncodage=window.location.hash.slice(1);
+	let quiz=decodeURI(quizEncodage);
+	document.getElementById("contenuDuQuiz").value = quiz;
+} else {
+	let quiz = localStorage.getItem('quiz');
 	document.getElementById("contenuDuQuiz").value = quiz;
 }
+
+
+/* Comportement de la boîte modale */
 
 let closeButton = document.querySelector(".modal .delete");
 let validationButton = document.querySelector(".modal .is-success");
@@ -242,6 +248,7 @@ let cancelButton = document.querySelector(".modal .modal-card-foot .button:nth-o
 let modal = document.querySelector(".modal");
 
 let menuModal = document.getElementById("menu")
+
 menuModal.onclick = toggleModal;
 closeButton.onclick = toggleModal;
 cancelButton.onclick = toggleModal;
