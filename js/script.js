@@ -106,7 +106,7 @@ new Sortable(associationq252, {
 
 /* Tableau des bonnes réponses*/
 
-var bonnesReponses={"quiz-q1": "1","quiz-q4":"A,C"};
+var bonnesReponses={"quiz-q1": "1","quiz-q4-r1": "A", "quiz-q7":"1", "quiz-q10-r1":"1","quiz-q10-r2":"1", "quiz-q13":"A","quiz-q16-r1":"1","quiz-q16-r2":"1","quiz-q16-r3":"1","quiz-q19":"A",};
 
 /* Calcul de la similarité entre deux objets */
 const findSimilarity = (first, second) => {
@@ -138,12 +138,12 @@ function resultats(e) {
 	formData = new FormData(myForm);
 
 	/* Traitement des QCM */
-	var questionQCM = document.getElementsByClassName('quiz-type-QCM');
+	/*var questionQCM = document.getElementsByClassName('quiz-type-QCM');
 	for (let index = 0; index < questionQCM.length; index++) {
 		let idElement=questionQCM[index]['id'];
 		let reponsesQCM=formData.getAll(idElement);
 		formData.append(idElement, reponsesQCM);
-	}
+	}*/
 
 	/* Ajout au formulaire des réponses aux questions de type SORTABLE */
 	var sortables = document.getElementsByClassName('quiz-type-sortable');
@@ -166,17 +166,26 @@ function resultats(e) {
 					contenu = element.innerHTML;
 				   return contenu;
 				 });;
+				 if (reponse !="") {
 				 formData.append(zoneId, reponse);
+				 }
 			}
 		}
 	}
 
 	var tableauResultats=Object.fromEntries(formData.entries());
 	
-	console.log(tableauResultats);
-
+	
 /* Comparaison résultats et bonnes réponses*/
-console.log(findSimilarity(tableauResultats,bonnesReponses));
+
+	var nombreReponsesJustes=findSimilarity(tableauResultats,bonnesReponses);
+	var nombreReponses = Object.keys(tableauResultats).length;
+	var pourcentageReponsesJustes=Math.round((nombreReponsesJustes/nombreReponses)*100);
+	document.getElementById("nombreReponsesJustes").innerHTML=nombreReponsesJustes;
+	if (nombreReponsesJustes>1) {document.getElementById("syntagmeReponse").innerHTML='réponses justes';}
+	document.getElementById("nombreReponses").innerHTML=nombreReponses;
+	document.getElementById("pourcentageReponsesJustes").innerHTML=pourcentageReponsesJustes;
+	document.getElementById("barreReponsesJustes").value=pourcentageReponsesJustes;
 
 }
 

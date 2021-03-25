@@ -82,10 +82,10 @@
 				ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
 			</div>
 			<div class="control is-size-5 is-size-6-mobile">
-				<label class="checkbox" for="quiz-q4-r1"><input type="checkbox" name="quiz-q4" id="quiz-q4-r1" value="A">A : première réponse possible</label>
-				<label class="checkbox" for="quiz-q4-r2"><input type="checkbox" name="quiz-q4" id="quiz-q4-r2" value="B">B : deuxième réponse possible</label>
-				<label class="checkbox" for="quiz-q4-r3"><input type="checkbox" name="quiz-q4" id="quiz-q4-r3" value="C">C : troisième réponse possible</label>
-				<label class="checkbox" for="quiz-q4-r4"><input type="checkbox" name="quiz-q4" id="quiz-q4-r4" value="D">D : quatrième réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r1"><input type="checkbox" name="quiz-q4-r1" id="quiz-q4-r1" value="A">A : première réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r2"><input type="checkbox" name="quiz-q4-r2" id="quiz-q4-r2" value="B">B : deuxième réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r3"><input type="checkbox" name="quiz-q4-r3" id="quiz-q4-r3" value="C">C : troisième réponse possible</label>
+				<label class="checkbox" for="quiz-q4-r4"><input type="checkbox" name="quiz-q4-r4" id="quiz-q4-r4" value="D">D : quatrième réponse possible</label>
 			</div>
 		</div>
 		<div class="box block quiz-question quiz-type-QCM quiz-success" id="quiz-q5">
@@ -480,8 +480,8 @@
 				Résultats du quiz
 			</p>
 			<div class="panel-block columns py-6">
-				<div class="column is-two-thirds">3 réponses justes sur 10   (30%)</div>
-				<div class="column"><progress class="progress is-warning" value="30" max="100">30%</progress></div>
+				<div class="column is-two-thirds"><span id="nombreReponsesJustes"></span> <span id="syntagmeReponse">réponse juste</span> sur <span id="nombreReponses"></span>   (<span id="pourcentageReponsesJustes"></span>%)</div>
+				<div class="column"><progress class="progress is-warning" value="" max="100" id="barreReponsesJustes"></progress></div>
 			</div>
 		</article>
 		<div class="has-text-centered mt-6">
