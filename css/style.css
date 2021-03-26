@@ -1,66 +1,74 @@
 #menu {
-	border:none;
+	border: none;
 }
 
 input {
-	margin-right:7px;
+	margin-right: 7px;
 }
 
-.has-text-strikethrough{
+.has-text-strikethrough {
 	text-decoration: line-through hsl(348, 86%, 43%);
 }
 
 .quiz-error {
-	border-left:4px solid hsl(348, 86%, 43%);
+	border-left: 4px solid hsl(348, 86%, 43%);
 }
 
 .quiz-success {
-	border-left:4px solid hsl(141, 53%, 31%);
+	border-left: 4px solid hsl(141, 53%, 31%);
 }
 
 label.checkbox {
-	display:block;
+	display: block;
 }
 
-.omission, .circle-true, .circle-false {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-	padding:1px;
-	margin-left:-2px;
-	margin-right:5px;
-	padding-left:7px;
+.omission,
+.circle-true,
+.circle-false {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 1px;
+	margin-left: -2px;
+	margin-right: 5px;
+	padding-left: 7px;
 }
-.omission, .circle-false {
+
+.omission,
+.circle-false {
 	border: 2px solid hsl(348, 86%, 43%);
 }
+
 .circle-true {
 	border: 2px solid hsl(141, 53%, 31%);
 }
 
-.quiz-type-qcu .radio{
-	display:block;
-	margin:0;
+.quiz-type-qcu .radio {
+	display: block;
+	margin: 0;
 }
 
 .quiz-type-input .control span {
-	margin-left:15px;
+	margin-left: 15px;
 }
 
 table {
 	hyphens: auto;
 }
-table .radio{
-	display:block;
-	text-align:center;
+
+table .radio {
+	display: block;
+	text-align: center;
 }
+
 thead {
-	text-align:center;
-	font-size:90%;
+	text-align: center;
+	font-size: 90%;
 }
+
 td:nth-of-type(1) {
-	width: 50%!important;
+	width: 50% !important;
 }
 
 #resultats {
