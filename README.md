@@ -19,6 +19,7 @@ N'hésitez pas à m'envoyer les quiz que vous avez créés pour que je les ajout
 </form>
 
 <style>
-	input {margin-left:1em; }
-	label {margin-top:0.5em;}
+	input {margin-left:1em; margin-top:0.5em!important}
+	label:nth-of-type(5) {display: inline-block; margin-top:0.5em}
+	textarea {margin-top:0.5em}
 </style>
