@@ -1,4 +1,6 @@
-# Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/).
+# Quiz
+
+Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un logiciel qui permet de créer un quiz simplement à partir d'un fichier texte.
 
 ## Philosophie
 
