@@ -4,6 +4,11 @@ Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un l
 
 ## Philosophie
 
+### Art
+
+- [Une œuvre qui questionne nos attentes face à l'art : _Fountain_ de Duchamp](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/duchamp-urinoir.txt)
+
 ### Culture
 
 - [Distinction entre deux sens de la notion de culture : sens général (développement) et sens sociologique](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/deux-sens-notion-culture.txt)
+
