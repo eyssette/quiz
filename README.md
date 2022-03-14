@@ -8,6 +8,7 @@ Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un l
 
 - [Une œuvre qui questionne nos attentes face à l'art : _Fountain_ de Duchamp](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/duchamp-urinoir.txt)
 - [Texte à trous sur le relativisme esthétique](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/relativisme-esthétique.txt)
+- [Bergson : la distinction entre perception ordinaire et perception esthétique](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/Bergson-deux-formes-de-perception.txt)
 
 ### Culture
 
