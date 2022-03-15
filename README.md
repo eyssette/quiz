@@ -16,6 +16,8 @@ Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un l
 - [La distinction entre le bonheur et le plaisir](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/bonheur-plaisir.txt)
 - [Kant : “Le bonheur est un idéal, non de la raison, mais de l'imagination”. Qu'est-ce que cela veut dire ?](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/Kant-bonheur-idéal-imagination.txt)
 - [Deux formes d'hédonisme : l'hédonisme radical et l'hédonisme d'Épicure](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/hédonisme-radical-hédonisme-Épicure.txt)
+- [Le vocabulaire d'Épicure : quelques définitions](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/Épicure-vocabulaire-définitions.txt)
+
 
 ### Culture
 
