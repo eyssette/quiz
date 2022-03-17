@@ -25,9 +25,17 @@ Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un l
 - [Distinction entre deux sens de la notion de culture : sens général (développement) et sens sociologique](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/deux-sens-notion-culture.txt)
 
 
+### Morale
+
+- [Le subjectivisme moral](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/subjectivisme-moral.txt)
+
 
 <!--
 
+https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/.txt
+
 - [](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/)
+
+- [](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/.txt)
 
 -->
