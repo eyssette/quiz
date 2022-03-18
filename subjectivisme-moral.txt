@@ -1,4 +1,4 @@
-QCM || D'après le subjectivisme moral … || Il n'y a pas de vérité objective en morale|Les jugements de valeur sont des vérités subjectives universelles|Les jugements moraux sont l'expression d'un point de vue subjectif|Les jugements de fait ne sont pas objectifs || 1|3
+QCM || D'après le subjectivisme moral … || V:Il n'y a pas de vérité objective en morale|Les jugements de valeur sont des vérités subjectives universelles|V:Les jugements moraux sont l'expression d'un point de vue subjectif|Les jugements de fait ne sont pas objectifs
 
 Grille || Jugement de fait|Jugement de valeur || {{Prétend représenter une vérité sur le monde|Prétend n'être qu'un constat neutre et objectif de la réalité|Prétend n'être qu'une description ou un explication du monde}}{{Prétend dire ce qui est bien, ce qui est beau … |Contient une évaluation en fonction d'une norme ou d'une valeur|Exprime un engagement en faveur de certaines valeurs}} || Le subjectivisme moral repose sur la distinction entre jugements de fait et jugements de valeur. Quel est le sens de cette distinction ?
 
