@@ -1,6 +1,6 @@
 Flashcard || Qu'est-ce que l'ethnocentrisme au sens faible ? || L'ethnocentrisme, au sens faible, désigne un biais cognitif : nous avons tendance à percevoir les choses à travers le filtre de notre propre culture
 
-Correspondance || Les idées qui constituent ce raisonnement || {{Les croyances morales d'une personne sont façonnées par le code moral de la culture à laquelle il appartient | Les codes moraux diffèrent selon les cultures}}{{Les croyances morales sont l'expression de normes objectives | Les cultures sont différentes, mais partagent malgré tout des normes morales qui sont identiques }} || D'après le relativisme culturel, il n'y a pas de vérités morales universelles. Quel est le raisonnement qui conduit à cette idée ?
+Correspondance || Les idées qui constituent ce raisonnement || {{Les croyances morales d'une personne sont façonnées par le code moral de la culture à laquelle elle appartient | Les codes moraux diffèrent selon les cultures}}{{Les croyances morales sont l'expression de normes objectives | Les cultures sont différentes, mais partagent malgré tout des normes morales qui sont identiques }} || D'après le relativisme culturel, il n'y a pas de vérités morales universelles. Quel est le raisonnement qui conduit à cette idée ?
 
 Flashcard || Qu'est-ce que l'ethnocentrisme au sens fort ? || L'ethnocentrisme au sens fort désigne une hiérarchisation des cultures qui repose sur une survalorisation de sa culture (“nous, les civilisés”) et une infériorisation des autres cultures (“eux, les barbares”).
 
