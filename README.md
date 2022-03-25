@@ -28,9 +28,12 @@ Sélection de quiz créés avec [Text2Quiz](https://text2quiz.vercel.app/), un l
 ### Morale
 
 - [Le subjectivisme moral](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/subjectivisme-moral.txt)
+- [Le relativisme culturel](https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/relativisme-culturel.txt)
 
 
 <!--
+
+https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/
 
 https://text2quiz.vercel.app/#https://raw.githubusercontent.com/eyssette/quiz/main/.txt
 

@@ -1,0 +1,9 @@
+Flashcard || Qu'est-ce que l'ethnocentrisme au sens faible ? || L'ethnocentrisme, au sens faible, désigne un biais cognitif : nous avons tendance à percevoir les choses à travers le filtre de notre propre culture
+
+Correspondance || Les idées qui constituent ce raisonnement || {{Les croyances morales d'une personne sont façonnées par le code moral de la culture à laquelle il appartient | Les codes moraux diffèrent selon les cultures}}{{Les croyances morales sont l'expression de normes objectives | Les cultures sont différentes, mais partagent malgré tout des normes morales qui sont identiques }} || D'après le relativisme culturel, il n'y a pas de vérités morales universelles. Quel est le raisonnement qui conduit à cette idée ?
+
+Flashcard || Qu'est-ce que l'ethnocentrisme au sens fort ? || L'ethnocentrisme au sens fort désigne une hiérarchisation des cultures qui repose sur une survalorisation de sa culture (“nous, les civilisés”) et une infériorisation des autres cultures (“eux, les barbares”).
+
+TrousRC || Montaigne dans ses _Essais_ affirme que « chacun appelle {{barbarie}} ce qui ne fait pas partie de ses {{usages}} »
+
+Correspondance || Les idées qui constituent ce raisonnement || {{Croire qu'il existe des vérités en morale, c'est en fait croire en la supériorité de sa propre culture | Croire en la supériorité de sa culture conduit à une forme d'intolérance qui n'est pas acceptable}}{{La liberté de l'individu est une valeur morale fondamentale | Il faut se méfier de la croyance en une identité culturelle figée : l'identité est avant tout personnelle}} || D'après le relativisme culturel, il faut se méfier de la croyance en l'existence de vérités en morale. Quel est le raisonnement qui conduit à cette idée ?
