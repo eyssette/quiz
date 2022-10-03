@@ -1,0 +1,6 @@
+Flashcard || Donne une définition du terme "environnement" || L'environnement c'est tout ce qui nous entoure
+TrousRC || Dans un environnement, on peut distinguer des  {{organismes}} vivants, des éléments non vivants appelés {{composantes minérales}}, et des {{traces}} de l'activité humaine.
+TrousRC || La biodiversité, c'est l'ensemble des {{espèces d'organismes vivant | espèces}} en un {{lieu | lieu donné}}
+QRC || Un milieu de vie et l'ensemble des organismes vivants qui le peuplent s'appelle …… || Un écosystème | Écosystème
+Grille || Organismes vivants | Composantes minérales | Traces de l'activité humaine || {{Araignée | Fourmi | Champignon | Mousse | Herbe | Lavande | Fleur}}{{Roches | Eau | Air }}{{Tuyau | Grillage | Balançoire }}
+Flashcard || Qu'est-ce qui caractérise les organismes vivants ? (Trouve 4 caractéristiques) || Les organismes vivants naissent, grandissent, se reproduisent et meurent
