@@ -1,8 +1,14 @@
 Flashcard || Donne une définition du terme "environnement" || L'environnement c'est tout ce qui nous entoure
-TrousRC || Dans un environnement, on peut distinguer des  {{organismes}} vivants, des éléments non vivants appelés {{composantes minérales}}, et des {{traces}} de l'activité humaine.
+TrousRC || Dans un environnement, on peut distinguer des {{espèces d'organismes}} vivants, des éléments non vivants appelés {{composantes minérales}}, et des {{traces}} de l'activité humaine.
 TrousRC || La biodiversité, c'est l'ensemble des {{espèces d'organismes vivant | espèces}} en un {{lieu | lieu donné}}
 QRC || Un milieu de vie et l'ensemble des organismes vivants qui le peuplent s'appelle un … || écosystème
 Grille || Organismes vivants | Composantes minérales | Traces de l'activité humaine || {{Araignée | Fourmi | Champignon | Mousse | Herbe | Lavande | Fleur}}{{Roches | Eau | Air }}{{Tuyau | Grillage | Balançoire }}
 Flashcard || Qu'est-ce qui caractérise les organismes vivants ? (Trouve 4 caractéristiques) || Les organismes vivants naissent, grandissent, se reproduisent et meurent
 TrousRC || Dans un écosystème, on peut observer des {{relations}} entre les organismes vivants
 Flashcard || Donne 2 exemples || …
+Flashcard || Quelles sont les caractéristiques d'un milieu ? Indique 3 caractéristiques, ainsi que l'unité et l'instrument de mesure qui correspond || - La température : se mesure en degré celsius avec un thermomètre<br>L'humidité se mesure en pourcentage avec un hygromètre <br>La luminosité se mesure en lux avec un luxmètre
+TrousRC || Les conditions du milieu influencent {{la répartition}} des êtres vivants dans un écosystème.
+TrousRC || L'introduction d'une espèce étrangère dans un écosystème peut {{modifier son peuplement}}.
+Flashcard || Donne 1 exemple || Une espèce peut être en compétition avec d'autres espèces pour ses ressources alimentaires.
+TrousRC || Les êtres humains {{aménagent}} leur environnement pour améliorer leurs {{conditions de vie}}. Mais ces {{aménagements}} causent aussi des {{dégâts}} aux écosystèmes. Pour les limiter, ils peuvent {{réaliser d'autres aménagements}}.
+Flashcard || Donne 1 exemple || Autour d'une autoroute, on peut aménager des passages pour animaux ou reconstruire leur habitat.
