@@ -4,5 +4,5 @@ TrousRC || La biodiversité, c'est l'ensemble des {{espèces d'organismes vivant
 QRC || Un milieu de vie et l'ensemble des organismes vivants qui le peuplent s'appelle un … || écosystème
 Grille || Organismes vivants | Composantes minérales | Traces de l'activité humaine || {{Araignée | Fourmi | Champignon | Mousse | Herbe | Lavande | Fleur}}{{Roches | Eau | Air }}{{Tuyau | Grillage | Balançoire }}
 Flashcard || Qu'est-ce qui caractérise les organismes vivants ? (Trouve 4 caractéristiques) || Les organismes vivants naissent, grandissent, se reproduisent et meurent
-TrousRC || Dans un écosystème, on peut observer des {{relation}} entre les organismes vivants
+TrousRC || Dans un écosystème, on peut observer des {{relations}} entre les organismes vivants
 Flashcard || Donne 2 exemples || …
