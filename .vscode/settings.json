@@ -1,9 +1,13 @@
 {
 	"highlight.regexes": {
 		"(\\{\\{)(.*?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
-		{ "color": "yellow" },
+		{ "color": "orange",
+		"fontWeight": "bold",
+"textDecoration":"underline"},
 		  { },
-		  { "color": "yellow" }
+		  { "color": "orange",
+		  "fontWeight": "bold",
+		  "textDecoration":"underline"}
 		],
 		"(\\|)": [ // A regex will be created from this string, don't forget to double escape it
 		  { "color": "yellow",
@@ -20,6 +24,6 @@
 		  { "color": "green",
 		  "fontWeight": "bold"
 		}
-		],
+		]
 	  }
 }
