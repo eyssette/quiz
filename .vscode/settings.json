@@ -1,0 +1,25 @@
+{
+	"highlight.regexes": {
+		"(\\{\\{)(.*?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
+		{ "color": "yellow" },
+		  { },
+		  { "color": "yellow" }
+		],
+		"(\\|)": [ // A regex will be created from this string, don't forget to double escape it
+		  { "color": "yellow",
+		  "fontWeight": "bold"
+		}
+		],
+		"(\\{)": [ // A regex will be created from this string, don't forget to double escape it
+		  { "color": "yellow" }
+		],
+		"(\\})": [ // A regex will be created from this string, don't forget to double escape it
+		  { "color": "yellow" }
+		],
+		"(V:.*?\\|)": [ // A regex will be created from this string, don't forget to double escape it
+		  { "color": "green",
+		  "fontWeight": "bold"
+		}
+		],
+	  }
+}
