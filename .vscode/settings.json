@@ -9,6 +9,14 @@
 		  "fontWeight": "bold",
 		  "textDecoration":"underline"}
 		],
+		"(\\{\\{)(.*?)(\\}\\})(\\{\\{)(.*?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
+		{},
+		  {"textDecoration": "underline"},
+		  {},
+		  {},
+		  {},
+		  {}
+		],
 		"(\\|)": [ // A regex will be created from this string, don't forget to double escape it
 		  { "color": "yellow",
 		  "fontWeight": "bold"
