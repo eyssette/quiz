@@ -5,9 +5,9 @@ QRC	Question	Réponse correcte|Autre réponse correcte
 Trous		Texte avec des {{V:trous|trou}}, pas de {{V:Latex|Lateq|Lateqh}} possible dans les réponses
 TrousRC		Texte avec des {{trous|vides}}. La taille du trou est proportionnelle à la {{taille}} de la réponse.
 Flashcard	Recto	Verso
-Grille	Catégorie 1|Catégorie 2	{{Catégorie 1 Énoncé 1|Catégorie 1 Énoncé 2}}{{Catégorie 2 Énoncé 1|Catégorie 2 Énoncé 2}}	Consigne plus précise (facultatif)
-Ordre	Énoncé 1|Énoncé 2|Énoncé 3	Consigne plus précise (facultatif)
-Etiquettes	Catégorie 1|Catégorie 2	{{Catégorie 1 Étiquette 1|Catégorie 1 Étiquette 2}}{{Catégorie 2 Étiquette 1|Catégorie 2 Étiquette 2}}	Consigne plus précise (facultatif)
+Ordre		Énoncé 1|Énoncé 2|Énoncé 3	Consigne plus précise (facultatif)
 Association		{{Item 1|Étiquette 1}}{{Item 2|Étiquette 2}}	Consigne plus précise (facultatif)
+Etiquettes	Catégorie 1|Catégorie 2	{{Catégorie 1 Étiquette 1|Catégorie 1 Étiquette 2}}{{Catégorie 2 Étiquette 1|Catégorie 2 Étiquette 2}}	Consigne plus précise (facultatif)
+Grille	Catégorie 1|Catégorie 2	{{Catégorie 1 Énoncé 1|Catégorie 1 Énoncé 2}}{{Catégorie 2 Énoncé 1|Catégorie 2 Énoncé 2}}	Consigne plus précise (facultatif)
 Correspondance	Catégorie	{{Étiquette correspondante 1|Étiquette correspondante 2}}{{Étiquette hors catégorie 1|Étiquette hors catégorie 2}}	Consigne plus précise (facultatif)
 Correspondance	Catégorie	{{ORDRE|Étiquette correspondante place 1|Étiquette correspondante place 2}}{{Étiquette hors catégorie 1|Étiquette hors catégorie 2}}	Consigne plus précise (facultatif)
