@@ -1,15 +1,16 @@
 {
 	"highlight.regexes": {
-		"(\\{\\{)(.*?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
+		"(\\{\\{)(.+?)(\\}\\})( |,|\\.|\\?|\\!|\\;|\\:|\\%|\\)|\\]|)": [ // A regex will be created from this string, don't forget to double escape it.*
 		{ "color": "orange",
 		"fontWeight": "bold",
 "textDecoration":"underline"},
 		  { },
 		  { "color": "orange",
 		  "fontWeight": "bold",
-		  "textDecoration":"underline"}
+		  "textDecoration":"underline"},
+		  {}
 		],
-		"(\\{\\{)(.*?)(\\}\\})(\\{\\{)(.*?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
+		"(\\{\\{)(.+?)(\\}\\})(\\{\\{)(.+?)(\\}\\})": [ // A regex will be created from this string, don't forget to double escape it
 		{},
 		  {"textDecoration": "underline"},
 		  {},
