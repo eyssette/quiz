@@ -51,7 +51,7 @@
 		"scope": "",
 		"prefix": "Question Trous",
 		"body": [
-			"Trous\t$0"
+			"Trous\t\t$0"
 		],
 		"description": "Insérer une question de type Trous : Texte à trous - réponses prédéfinies"
 	},
@@ -59,7 +59,7 @@
 		"scope": "",
 		"prefix": "Question TrousRC",
 		"body": [
-			"TrousRC\t${1:Texte}"
+			"TrousRC\t\t$0"
 		],
 		"description": "Insérer une question de type TrousRC : Texte à trous - réponses courtes"
 	},
@@ -86,5 +86,13 @@
 			"FlashcardRC\t${1:Recto}\t${2:Verso}"
 		],
 		"description": "Insérer une question de type Flashcard"
+	},
+	"Question Ordre": {
+		"scope": "",
+		"prefix": "Question Ordre",
+		"body": [
+			"Ordre\t\t${1:Énoncé 1}|${2:Énoncé 2}|${3:Énoncé 3}\t${4:Consigne plus précise(facultatif)}"
+		],
+		"description": "Insérer une question de type Ordre"
 	},
 }
