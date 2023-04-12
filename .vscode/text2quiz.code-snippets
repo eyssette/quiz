@@ -15,20 +15,76 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Vrai-Faux": {
+	"Question Vrai-Faux": {
 		"scope": "",
-		"prefix": "Vrai-faux",
+		"prefix": "Question VF - Vrai-faux",
 		"body": [
 			"VF\t${1:Énoncé}\t${2|V,F|}$0"
 		],
-		"description": "Vrai-Faux"
+		"description": "Insérer une question de type Vrai-Faux"
 	},
-	"QCM": {
+	"Question QCM": {
 		"scope": "",
-		"prefix": "QCM",
+		"prefix": "Question QCM",
 		"body": [
-			"QCM\t${1:Question}\t$2|$3|$4|$5"
+			"QCM\t${1:Question}\t${2:V:Réponse A}|${3:V:Réponse B}|${4:Réponse C}|${5:Réponse A}"
 		],
-		"description": "QCM"
-	}
+		"description": "Insérer une question de type QCM : question à choix multiples"
+	},
+	"Question QR": {
+		"scope": "",
+		"prefix": "Question QR",
+		"body": [
+			"QR\t${1:Question}\t${2:V:Réponse A}|${3:Réponse B}|${4:Réponse C}|${5:Réponse A}"
+		],
+		"description": "Insérer une question de type QR : question / réponse unique"
+	},
+	"Question QRC": {
+		"scope": "",
+		"prefix": "Question QRC",
+		"body": [
+			"QRC\t${1:Question}\t${2:Réponse correcte}|${3:Autre réponse correcte}"
+		],
+		"description": "Insérer une question de type QRC : Question à réponse courte"
+	},
+	"Question Trous": {
+		"scope": "",
+		"prefix": "Question Trous",
+		"body": [
+			"Trous\t$0"
+		],
+		"description": "Insérer une question de type Trous : Texte à trous - réponses prédéfinies"
+	},
+	"Question TrousRC": {
+		"scope": "",
+		"prefix": "Question TrousRC",
+		"body": [
+			"TrousRC\t${1:Texte}"
+		],
+		"description": "Insérer une question de type TrousRC : Texte à trous - réponses courtes"
+	},
+	"trou pour exercice Trous": {
+		"scope": "",
+		"prefix": "trou pour Trous",
+		"body": [
+			" {{${1:réponse A}|${2:réponse B}|${3:réponse C}}}$0"
+		],
+		"description": "Insérer un trou dans une question de type Trous"
+	},
+	"trou pour exercice TrousRC": {
+		"scope": "",
+		"prefix": "trou pour TrousRC",
+		"body": [
+			" {{${1:V:réponse A}|${2:réponse B}|${3:réponse C}}}$0"
+		],
+		"description": "Insérer un trou dans une question de type TrousRC"
+	},
+	"Question Flashcard": {
+		"scope": "",
+		"prefix": "Question Flashcard",
+		"body": [
+			"FlashcardRC\t${1:Recto}\t${2:Verso}"
+		],
+		"description": "Insérer une question de type Flashcard"
+	},
 }
