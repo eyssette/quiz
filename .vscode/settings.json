@@ -29,7 +29,7 @@
 		"(\\})": [ // A regex will be created from this string, don't forget to double escape it
 		  { "color": "yellow" }
 		],
-		"(V:.*?\\|)": [ // A regex will be created from this string, don't forget to double escape it
+		"(V:.*?)(\\||\\}\\}|\n)": [ // A regex will be created from this string, don't forget to double escape it
 		  { "color": "green",
 		  "fontWeight": "bold"
 		}
