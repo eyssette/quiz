@@ -103,4 +103,12 @@
 		],
 		"description": "Insérer une question de type Association"
 	},
+	"Question Étiquettes": {
+		"scope": "",
+		"prefix": "Question Étiquettes (etiquettes)",
+		"body": [
+			"Etiquettes\t${1:Catégorie 1}|${2:Catégorie 2}\t{{${3:Catégorie 1 - étiquette 1}|${4:Catégorie 1 – étiquette 2}}}{{${5:Catégorie 2 - étiquette 1}|${6:Catégorie 2 – étiquette 2}}}\t${7:Consigne plus précise(facultatif)}"
+		],
+		"description": "Insérer une question de type Association"
+	},
 }
